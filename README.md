@@ -106,15 +106,15 @@ Visit in your browser:
 http://localhost/school-management-system
 
 ## 🔐 Login Roles
-
+```bash
 | Role    | Username    | Password     | Description                        |
 | ------- | ----------- | ------------ | ---------------------------------- |
 | Admin   | `admin`     | `admin123`   | Full system access                 |
 | Teacher | `teacher01` | `teacher123` | Manage marks for assigned students |
 | Student | `student01` | `student123` | View marks and profile             |
-
+```
 ## 🧭 Project Folder Structure
-
+```folder
 school-management-portal/
 │
 ├── admin/
@@ -144,6 +144,7 @@ school-management-portal/
 │
 ├── database.sql
 └── index.php
+```
 ## 📱 Responsive Design
 
 Built with HTML + CSS
