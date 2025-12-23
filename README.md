@@ -70,11 +70,11 @@ The **School Site Management Portal** helps educational institutions automate ac
 ### 1️⃣ Clone the Repository
 ```bash
 git clonehttps://github.com/daniiiiel00/school-management-system.git
-
-2️⃣ Move to Project Folder
+```
+## 2️⃣ Move to Project Folder
 cd school-management-system
 
-3️⃣ Set Up Database
+## 3️⃣ Set Up Database
 
 Open phpMyAdmin
 
@@ -82,7 +82,7 @@ Create a new database (e.g. school_portal_db)
 
 Import the database.sql file located in the project folder
 
-4️⃣ Configure Database Connection
+## 4️⃣ Configure Database Connection
 
 Edit your database configuration file (e.g. config.php):
 
@@ -91,7 +91,7 @@ $username = "root";
 $password = "";
 $dbname = "school_portal_db";
 
-5️⃣ Run the Application
+## 5️⃣ Run the Application
 
 Place the project folder inside your local server directory:
 
@@ -105,7 +105,7 @@ Visit in your browser:
 
 http://localhost/school-management-system
 
-🔐 Login Roles
+## 🔐 Login Roles
 
 | Role    | Username    | Password     | Description                        |
 | ------- | ----------- | ------------ | ---------------------------------- |
@@ -113,7 +113,7 @@ http://localhost/school-management-system
 | Teacher | `teacher01` | `teacher123` | Manage marks for assigned students |
 | Student | `student01` | `student123` | View marks and profile             |
 
-🧭 Project Folder Structure
+## 🧭 Project Folder Structure
 
 school-management-portal/
 │
@@ -144,7 +144,7 @@ school-management-portal/
 │
 ├── database.sql
 └── index.php
-📱 Responsive Design
+## 📱 Responsive Design
 
 Built with HTML + CSS
 
@@ -152,7 +152,7 @@ Fully responsive layout for desktop and mobile
 
 User-friendly interface for all roles
 
-🧰 Future Improvements
+## 🧰 Future Improvements
 
 Add parent login portal
 
@@ -164,7 +164,11 @@ Role-based access enhancements
 
 Integrate RESTful API for mobile version
 
-👨‍💻 Author
+## 🪪 License
+
+This project is licensed under the MIT License
+.
+## 👨‍💻 Author
 
 Daniel Melese
 Diploma in Web Development & Database Administration
@@ -172,8 +176,5 @@ Diploma in Web Development & Database Administration
 📧 Email: danielmelese240@gmail.com
 🌐 GitHub: https://github.com/daniiiiel00
 
-🪪 License
 
-This project is licensed under the MIT License
-.
 
